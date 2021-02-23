@@ -1,0 +1,16 @@
+password hardcoded
+
+"description": "Threat Detection Disabled for SQL Databases",
+"rationale": "Enable threat detection for all of SQL databases.",
+
+"description": "Transparent Data Encryption Disabled for SQL Databases",
+"rationale": "Enable transparent data encryption for all SQL databases.",
+
+"description": "Threat Detection Alerts Disabled for SQL Databases",
+"rationale": "Enable alerts related to threat detections.",
+
+"description": "Short Threat Detection Period for SQL Databases",
+"rationale": "Threat detection retention period should be greater than _ARG_0_ days.",
+
+"description": "\"Send Threat Detection Alerts\" Disabled for SQL Databases",
+"rationale": "Specify email addresses and ensure that alerts are sent to them.",
