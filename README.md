@@ -1,13 +1,13 @@
-# terraform-azurerm-sql
+# terraform-azurerm-msqlserver
 
-[![Build Status](https://github.com/JamesWoolfenden/terraform-azurerm-sql/workflows/Verify%20and%20Bump/badge.svg?branch=master)](https://github.com/JamesWoolfenden/terraform-azurerm-sql)
-[![Latest Release](https://img.shields.io/github/release/JamesWoolfenden/terraform-azurerm-sql.svg)](https://github.com/JamesWoolfenden/terraform-azurerm-sql/releases/latest)
-[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/JamesWoolfenden/terraform-azurerm-sql.svg?label=latest)](https://github.com/JamesWoolfenden/terraform-azurerm-sql/releases/latest)
+[![Build Status](https://github.com/JamesWoolfenden/terraform-azurerm-msqlserver/workflows/Verify%20and%20Bump/badge.svg?branch=master)](https://github.com/JamesWoolfenden/terraform-azurerm-msqlserver)
+[![Latest Release](https://img.shields.io/github/release/JamesWoolfenden/terraform-azurerm-msqlserver.svg)](https://github.com/JamesWoolfenden/terraform-azurerm-msqlserver/releases/latest)
+[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/JamesWoolfenden/terraform-azurerm-msqlserver.svg?label=latest)](https://github.com/JamesWoolfenden/terraform-azurerm-msqlserver/releases/latest)
 ![Terraform Version](https://img.shields.io/badge/tf-%3E%3D0.14.0-blue.svg)
-[![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/JamesWoolfenden/terraform-azurerm-sql/cis_aws)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=JamesWoolfenden%2Fterraform-azurerm-sql&benchmark=CIS+AWS+V1.2)
+[![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/JamesWoolfenden/terraform-azurerm-msqlserver/cis_aws)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=JamesWoolfenden%2Fterraform-azurerm-msqlserver&benchmark=CIS+AWS+V1.2)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
 [![checkov](https://img.shields.io/badge/checkov-verified-brightgreen)](https://www.checkov.io/)
-[![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/jameswoolfenden/terraform-azurerm-sql/general)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=JamesWoolfenden%2Fterraform-azurerm-sql&benchmark=INFRASTRUCTURE+SECURITY)
+[![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/jameswoolfenden/terraform-azurerm-msqlserver/general)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=JamesWoolfenden%2Fterraform-azurerm-msqlserver&benchmark=INFRASTRUCTURE+SECURITY)
 
 This is module to help you deploy SQL ON AZURE.
 
@@ -17,9 +17,9 @@ Add **module.sql.tf** to your Terraform code:
 
 ```terraform
 module "sql" {
-  source         = "JamesWoolfenden/sql/azure"
+  source         = "JamesWoolfenden/mssqlserver/azure"
   version        = "0.0.2"
-  resource_group = azurerm_resource_group.examplea
+  resource_group = azurerm_resource_group.examplea-mssql
   database_name  = "mydatabase"
 }
 ```
@@ -89,13 +89,13 @@ For additional context, refer to some of these links.
 
 **Got a question?**
 
-File a GitHub [issue](https://github.com/JamesWoolfenden/terraform-azurerm-sql/issues).
+File a GitHub [issue](https://github.com/JamesWoolfenden/terraform-azurerm-msqlserver/issues).
 
 ## Contributing
 
 ### Bug Reports & Feature Requests
 
-Please use the [issue tracker](https://github.com/JamesWoolfenden/terraform-azurerm-sql/issues) to report any bugs or file feature requests.
+Please use the [issue tracker](https://github.com/JamesWoolfenden/terraform-azurerm-msqlserver/issues) to report any bugs or file feature requests.
 
 ## Copyrights
 
@@ -133,8 +133,8 @@ under the License.
 [github]: https://github.com/jameswoolfenden
 [linkedin]: https://www.linkedin.com/in/jameswoolfenden/
 [twitter]: https://twitter.com/JimWoolfenden
-[share_twitter]: https://twitter.com/intent/tweet/?text=terraform-azurerm-sql&url=https://github.com/JamesWoolfenden/terraform-azurerm-sql
-[share_linkedin]: https://www.linkedin.com/shareArticle?mini=true&title=terraform-azurerm-sql&url=https://github.com/JamesWoolfenden/terraform-azurerm-sql
-[share_reddit]: https://reddit.com/submit/?url=https://github.com/JamesWoolfenden/terraform-azurerm-sql
-[share_facebook]: https://facebook.com/sharer/sharer.php?u=https://github.com/JamesWoolfenden/terraform-azurerm-sql
-[share_email]: mailto:?subject=terraform-azurerm-sql&body=https://github.com/JamesWoolfenden/terraform-azurerm-sql
+[share_twitter]: https://twitter.com/intent/tweet/?text=terraform-azurerm-msqlserver&url=https://github.com/JamesWoolfenden/terraform-azurerm-msqlserver
+[share_linkedin]: https://www.linkedin.com/shareArticle?mini=true&title=terraform-azurerm-msqlserver&url=https://github.com/JamesWoolfenden/terraform-azurerm-msqlserver
+[share_reddit]: https://reddit.com/submit/?url=https://github.com/JamesWoolfenden/terraform-azurerm-msqlserver
+[share_facebook]: https://facebook.com/sharer/sharer.php?u=https://github.com/JamesWoolfenden/terraform-azurerm-msqlserver
+[share_email]: mailto:?subject=terraform-azurerm-msqlserver&body=https://github.com/JamesWoolfenden/terraform-azurerm-msqlserver
