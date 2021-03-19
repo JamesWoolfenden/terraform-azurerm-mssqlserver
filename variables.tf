@@ -24,6 +24,7 @@ variable "account_tier" {
 
 variable "administrator_login_password" {
   type      = string
+  default   = ""
   sensitive = true
 }
 
