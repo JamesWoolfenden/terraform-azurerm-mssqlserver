@@ -63,7 +63,7 @@ No Modules.
 | account\_name | n/a | `string` | `"exampleaauditlogs"` | no |
 | account\_replication\_type | n/a | `string` | `"LRS"` | no |
 | account\_tier | n/a | `string` | `"Standard"` | no |
-| administrator\_login\_password | n/a | `string` | `""` | no |
+| administrator\_login\_password | n/a | `string` | n/a | yes |
 | audit\_retention\_in\_days | Retention period for Audit logs in days | `number` | `90` | no |
 | common\_tags | This is to help you add tags to your cloud objects | `map(any)` | n/a | yes |
 | database\_name | n/a | `string` | n/a | yes |

@@ -25,8 +25,8 @@ variable "account_tier" {
 variable "administrator_login_password" {
   type      = string
   sensitive = true
-  default   = ""
 }
+
 variable "sql" {
   default = {
     name                          = "mymssqlserver"
