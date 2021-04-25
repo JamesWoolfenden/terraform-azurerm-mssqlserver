@@ -1,6 +1,7 @@
 resource "azurerm_mssql_server" "examplea" {
   #checkov:skip=CKV_AZURE_23:Deprecated test as separate resource
   #checkov:skip=CKV_AZURE_24:Deprecated test as separate resource
+  #tfsec:ignore:AZU018
   name                          = var.server_name
   resource_group_name           = var.resource_group.name
   location                      = var.resource_group.location

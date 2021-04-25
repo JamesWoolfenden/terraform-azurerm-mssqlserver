@@ -9,6 +9,7 @@ resource "azurerm_storage_account" "examplea" {
   location                  = var.resource_group.location
   enable_https_traffic_only = true
   min_tls_version           = "TLS1_2"
+  #tfsec:ignore:AZU012
   network_rules {
     bypass = [
       "AzureServices",

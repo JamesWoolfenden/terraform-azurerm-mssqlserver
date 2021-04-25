@@ -39,46 +39,46 @@ No requirements.
 
 | Name | Version |
 |------|---------|
-| azurerm | n/a |
-| random | n/a |
+| <a name="provider_azurerm"></a> [azurerm](#provider\_azurerm) | n/a |
+| <a name="provider_random"></a> [random](#provider\_random) | n/a |
 
 ## Modules
 
-No Modules.
+No modules.
 
 ## Resources
 
-| Name |
-|------|
-| [azurerm_mssql_database](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/mssql_database) |
-| [azurerm_mssql_database_extended_auditing_policy](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/mssql_database_extended_auditing_policy) |
-| [azurerm_mssql_server](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/mssql_server) |
-| [azurerm_storage_account](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/storage_account) |
-| [random_password](https://registry.terraform.io/providers/hashicorp/random/latest/docs/resources/password) |
+| Name | Type |
+|------|------|
+| [azurerm_mssql_database.examplea](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/mssql_database) | resource |
+| [azurerm_mssql_database_extended_auditing_policy.example](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/mssql_database_extended_auditing_policy) | resource |
+| [azurerm_mssql_server.examplea](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/mssql_server) | resource |
+| [azurerm_storage_account.examplea](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/storage_account) | resource |
+| [random_password.examplea](https://registry.terraform.io/providers/hashicorp/random/latest/docs/resources/password) | resource |
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| account\_name | n/a | `string` | `"exampleaauditlogs"` | no |
-| account\_replication\_type | n/a | `string` | `"LRS"` | no |
-| account\_tier | n/a | `string` | `"Standard"` | no |
-| administrator\_login\_password | n/a | `string` | `""` | no |
-| audit\_retention\_in\_days | Retention period for Audit logs in days | `number` | `90` | no |
-| common\_tags | This is to help you add tags to your cloud objects | `map(any)` | n/a | yes |
-| database\_name | n/a | `string` | n/a | yes |
-| minimum\_tls\_version | n/a | `string` | `"1.2"` | no |
-| resource\_group | n/a | `any` | n/a | yes |
-| server\_name | n/a | `string` | `"exampleamssqlserver"` | no |
-| sql | n/a | `map` | <pre>{<br>  "administrator_login": "supaman",<br>  "name": "mymssqlserver",<br>  "public_network_access_enabled": false,<br>  "version": "12.0"<br>}</pre> | no |
+| <a name="input_account_name"></a> [account\_name](#input\_account\_name) | n/a | `string` | `"exampleaauditlogs"` | no |
+| <a name="input_account_replication_type"></a> [account\_replication\_type](#input\_account\_replication\_type) | n/a | `string` | `"LRS"` | no |
+| <a name="input_account_tier"></a> [account\_tier](#input\_account\_tier) | n/a | `string` | `"Standard"` | no |
+| <a name="input_administrator_login_password"></a> [administrator\_login\_password](#input\_administrator\_login\_password) | n/a | `string` | `""` | no |
+| <a name="input_audit_retention_in_days"></a> [audit\_retention\_in\_days](#input\_audit\_retention\_in\_days) | Retention period for Audit logs in days | `number` | `90` | no |
+| <a name="input_common_tags"></a> [common\_tags](#input\_common\_tags) | This is to help you add tags to your cloud objects | `map(any)` | n/a | yes |
+| <a name="input_database_name"></a> [database\_name](#input\_database\_name) | n/a | `string` | n/a | yes |
+| <a name="input_minimum_tls_version"></a> [minimum\_tls\_version](#input\_minimum\_tls\_version) | n/a | `string` | `"1.2"` | no |
+| <a name="input_resource_group"></a> [resource\_group](#input\_resource\_group) | n/a | `any` | n/a | yes |
+| <a name="input_server_name"></a> [server\_name](#input\_server\_name) | n/a | `string` | `"exampleamssqlserver"` | no |
+| <a name="input_sql"></a> [sql](#input\_sql) | n/a | `map` | <pre>{<br>  "administrator_login": "supaman",<br>  "name": "mymssqlserver",<br>  "public_network_access_enabled": false,<br>  "version": "12.0"<br>}</pre> | no |
 
 ## Outputs
 
 | Name | Description |
 |------|-------------|
-| database | n/a |
-| server | n/a |
-| storage | n/a |
+| <a name="output_database"></a> [database](#output\_database) | n/a |
+| <a name="output_server"></a> [server](#output\_server) | n/a |
+| <a name="output_storage"></a> [storage](#output\_storage) | n/a |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
 ## Related Projects
