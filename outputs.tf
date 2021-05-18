@@ -3,9 +3,11 @@ output "database" {
 }
 
 output "server" {
-  value = azurerm_mssql_server.examplea
+  value     = azurerm_mssql_server.examplea
+  sensitive = true
 }
 
 output "storage" {
-  value = azurerm_storage_account.examplea
+  value     = azurerm_storage_account.examplea
+  sensitive = true
 }

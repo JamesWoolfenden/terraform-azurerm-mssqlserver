@@ -1,0 +1,5 @@
+version: 0.1
+resource_usage:
+  module.mssql.azurerm_mssql_database.examplea:
+    long_term_retention_storage_gb: 0
+    monthly_vcore_hours: 0
