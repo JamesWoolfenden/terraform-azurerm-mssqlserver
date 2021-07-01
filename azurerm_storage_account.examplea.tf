@@ -1,6 +1,10 @@
 resource "azurerm_storage_account" "examplea" {
-  #checkov:skip=CKV_AZURE_35:
-  #checkov:skip=CKV_AZURE_33:
+  # checkov:skip=CKV2_AZURE_8: todo
+  # checkov:skip=CKV_AZURE_43: todo
+  # checkov:skip=CKV2_AZURE_18: todo
+  # checkov:skip=CKV2_AZURE_1: todo
+  # checkov:skip=CKV_AZURE_35: todo
+  # checkov:skip=CKV_AZURE_33: todo
 
   name                      = var.account_name
   account_replication_type  = var.account_replication_type
