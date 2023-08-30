@@ -1,5 +1,6 @@
 output "database" {
   value = module.mssql.database
+  sensitive = true
 }
 
 output "server" {

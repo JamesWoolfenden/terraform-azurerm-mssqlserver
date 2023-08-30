@@ -1,5 +1,6 @@
 output "database" {
   value = azurerm_mssql_database.examplea
+  sensitive = true
 }
 
 output "server" {

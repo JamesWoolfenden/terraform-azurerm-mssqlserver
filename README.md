@@ -1,6 +1,6 @@
 # terraform-azurerm-msqlserver
 
-[![Build Status](https://github.com/JamesWoolfenden/terraform-azurerm-msqlserver/workflows/Verify%20and%20Bump/badge.svg?branch=master)](https://github.com/JamesWoolfenden/terraform-azurerm-msqlserver)
+[![Build Status](https://github.com/JamesWoolfenden/terraform-azurerm-msqlserver/workflows/Verify/badge.svg?branch=master)](https://github.com/JamesWoolfenden/terraform-azurerm-msqlserver)
 [![Latest Release](https://img.shields.io/github/release/JamesWoolfenden/terraform-azurerm-msqlserver.svg)](https://github.com/JamesWoolfenden/terraform-azurerm-msqlserver/releases/latest)
 [![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/JamesWoolfenden/terraform-azurerm-msqlserver.svg?label=latest)](https://github.com/JamesWoolfenden/terraform-azurerm-msqlserver/releases/latest)
 ![Terraform Version](https://img.shields.io/badge/tf-%3E%3D0.14.0-blue.svg)
@@ -103,7 +103,7 @@ Please use the [issue tracker](https://github.com/JamesWoolfenden/terraform-azur
 
 ## Copyrights
 
-Copyright 2019-2021 James Woolfenden
+Copyright 2019-2023 James Woolfenden
 
 ## License
 
@@ -134,11 +134,3 @@ under the License.
 
 [jameswoolfenden_homepage]: https://github.com/jameswoolfenden
 [jameswoolfenden_avatar]: https://github.com/jameswoolfenden.png?size=150
-[github]: https://github.com/jameswoolfenden
-[linkedin]: https://www.linkedin.com/in/jameswoolfenden/
-[twitter]: https://twitter.com/JimWoolfenden
-[share_twitter]: https://twitter.com/intent/tweet/?text=terraform-azurerm-msqlserver&url=https://github.com/JamesWoolfenden/terraform-azurerm-msqlserver
-[share_linkedin]: https://www.linkedin.com/shareArticle?mini=true&title=terraform-azurerm-msqlserver&url=https://github.com/JamesWoolfenden/terraform-azurerm-msqlserver
-[share_reddit]: https://reddit.com/submit/?url=https://github.com/JamesWoolfenden/terraform-azurerm-msqlserver
-[share_facebook]: https://facebook.com/sharer/sharer.php?u=https://github.com/JamesWoolfenden/terraform-azurerm-msqlserver
-[share_email]: mailto:?subject=terraform-azurerm-msqlserver&body=https://github.com/JamesWoolfenden/terraform-azurerm-msqlserver
